@@ -1,2 +1,2 @@
 # code_freshmen
-##this my code
+These are the codes I wrote, which are recorded here.
