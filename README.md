@@ -1,4 +1,5 @@
 # code_freshmen
+[我的csdn](https://blog.csdn.net/intmainhhh)
 These are the codes I wrote, which are recorded here.
 看到一个人写的挺不错的几句话，如下：
 # Life is binary
