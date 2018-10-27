@@ -1,3 +1,5 @@
+/*是个水题没错了，哈哈哈*/
+
 #include<iostream>
 #include<cmath>
 #include<iomanip>
