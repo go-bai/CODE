@@ -9,8 +9,8 @@ double t,d,h;
 char c;
 int main() {
     while(true) {
-        cout<<setprecision(1)<<fixed;//格式化输出
-        tt=dd=hh=true;
+        cout<<setprecision(1)<<fixed;//格式化输出，表示输出的数据都是四舍五入保留一位小数
+        tt=dd=hh=true;//用来标记哪两个数是给出的，如果给出就在switch环节标记为false
         cin>>c;
         if(c=='E') break;
         switch(c) {
