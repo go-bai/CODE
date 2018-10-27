@@ -1,3 +1,4 @@
+/*基础的dfs算法*/
 #include<iostream>
 #include<cstring>
 using namespace std;
@@ -9,9 +10,9 @@ void dfs(int row,int cnt) {
         ans++;
         return ;
     }
-    for(int i=row; i<n; i++) {
+    for(int i=row; i<n; i++) {//按行号递增搜索，所以不会出现在同一行的情况
         for(int j=0; j<n; j++) {
-            if(mp[i][j]=='#'&&!vis[j]) {
+            if(mp[i][j]=='#'&&!vis[j]) {//只需要用vis数组标记是否在某一列已经有棋子即可
                 vis[j]=1;
                 dfs(i+1,cnt+1);
                 vis[j]=0;
