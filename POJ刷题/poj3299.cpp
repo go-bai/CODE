@@ -7,7 +7,7 @@ double t,d,h;
 char c;
 int main() {
     while(true) {
-        cout<<setprecision(1)<<fixed;//¸ñÊ½»¯Êä³ö
+        cout<<setprecision(1)<<fixed;//æ ¼å¼åŒ–è¾“å‡º
         tt=dd=hh=true;
         cin>>c;
         if(c=='E') break;
