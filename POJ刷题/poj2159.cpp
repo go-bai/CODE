@@ -24,5 +24,4 @@ int main()
     }
     if(blog) cout<<"YES\n";
     else cout<<"NO\n";
-    return 0;
 }
