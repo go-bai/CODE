@@ -31,6 +31,7 @@ def GetREADME():
 def main():
     GetREADME()
     README.close()
+    os.system('find . -name "*.out" | xargs rm -rfv')
     os.system('git add .')
     os.system('git commit -m update')
     os.system('git push origin master')
