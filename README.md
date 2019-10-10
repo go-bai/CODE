@@ -1,6 +1,6 @@
 # Count of Solved Problems  
 ```
-POJ                      7  
+POJ                      9  
 .vscode                  1  
 ```
-#### `Total:8`
+#### `Total:10`
