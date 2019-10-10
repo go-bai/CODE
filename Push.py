@@ -29,9 +29,9 @@ def GetREADME():
     README.write('```\n#### `Total:' + str(all_cnt) + '`\n')
 
 def main():
+    os.system('find . -name "*.out" | xargs rm -rfv')
     GetREADME()
     README.close()
-    os.system('find . -name "*.out" | xargs rm -rfv')
     os.system('git add .')
     os.system('git commit -m update')
     os.system('git push origin master')
