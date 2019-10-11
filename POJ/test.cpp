@@ -1,7 +1,10 @@
 #include <cstdio>
 #include <iostream>
+using namespace std;
 int main(){
-    int n;
-    std::cin >> n;
-    puts("nice!");
+    int cnt = 1;
+    while(cnt--){
+        puts("Hello world!");
+    }
+	return 0;
 }
