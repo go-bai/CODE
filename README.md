@@ -1,6 +1,6 @@
 # Count of Solved Problems  
 ```
 POJ                      8  
-CCF                      3  
+CCF                      2  
 ```
-#### `Total:11`
+#### `Total:10`
