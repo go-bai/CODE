@@ -33,7 +33,8 @@ def main():
     GetREADME()
     README.close()
     os.system('git add .')
-    os.system('git commit -m update')
+    update = input('请输入本次改动内容:')
+    os.system('git commit -m' + update)
     os.system('git push origin master')
 
 if __name__ == '__main__':
